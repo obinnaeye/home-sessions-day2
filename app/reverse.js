@@ -1,10 +1,14 @@
 module.exports = {
     reverseString : function(st) {
         if(typeof st === "string"){
-            if(palindrome(st)){
-                return true;
+            if(st){
+                if(palindrome(st)){
+                    return true;
+                }else{
+                    return reverseStr(st);
+                }
             }else{
-                return reverseStr(st);
+                return null;
             }
             
         }
