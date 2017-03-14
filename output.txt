@@ -1,0 +1,8 @@
+{
+  "Search-for": "nigeria",
+  "Reference-City": "Abuja",
+  "Summary": "Clouds; scattered clouds",
+  "Temperature": "30 Celcius",
+  "Pressure": "986 hPa",
+  "Humidity": "60 %"
+}
