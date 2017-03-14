@@ -42,6 +42,8 @@ module.exports = function(){
             
         })
     }else{
-        console.log("Please specified the city using -i 'city'");
+        console.log("Please specified the city. See help below.",
+                "\n", "node weda -i (city name)", "\n", "OR","\n",
+                "node weda -i (city name) -o (output file or path)");
     }
 }
