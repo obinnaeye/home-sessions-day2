@@ -13,7 +13,16 @@ module.exports = function(){
         //make a request
         request.get(url + input, function(err, res){
             if(err) throw err;
-            var weda = JSON.parse(res.body);
+            var obj = JSON.parse(res.body);
+            var weda = {
+                "Reference-City": obj.name,
+                "Summary": obj.weather[0].main + "; " + obj.weather[0].description,
+                "Temperature" : Math.round(obj.main.temp - 273) + " Celcius",
+                "Pressure" : Math.round(obj.main.pressure) + " hPa",
+                "Humidity" : Math.round(obj.main.humidity) + " %"
+                
+                
+            }
             
             //use JSON.stringify(weda, null, 2) to print pretty on console.
             console.log("The weather in " + input + " is","\n",JSON.stringify(weda, null, 2));
