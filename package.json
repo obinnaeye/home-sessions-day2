@@ -1,7 +1,7 @@
 {
   "name": "weda",
   "version": "1.0.0",
-  "description": "just a sample",
+  "description": "A simple console app that consumes a Public API using a HTTP client library: Andela Bootcamp",
   "main": "weda.js",
   "scripts": {
     "test": "./weda.js"
