@@ -2,7 +2,7 @@
   'use strict';
 
   var app = require("../app/reverse.js"),
-    words = app.words;
+    reverseString = app.reverseString;
     
     describe("Produce the reverse order of a word: ", function() {
       describe("Case for en empty string", function() {
