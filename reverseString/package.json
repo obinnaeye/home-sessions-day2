@@ -1,0 +1,17 @@
+{
+  "name": "*reversestring*",
+  "version": "1.0.0",
+  "description": "Andela exercises",
+  "main": "app/reverse.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/tests.js"
+  },
+  "author": "Nnenanya O.K",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
