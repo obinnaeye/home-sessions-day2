@@ -1,0 +1,18 @@
+{
+  "name": "weda",
+  "version": "1.0.0",
+  "description": "A simple console app that consumes a Public API using a HTTP client library: Andela Bootcamp",
+  "main": "weda.js",
+  "scripts": {
+    "test": "./weda.js"
+  },
+  "bin": {
+    "weda": ".bin/weda.js"
+  },
+  "author": "Nnenanya O.K",
+  "license": "ISC",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "request": "^2.81.0"
+  }
+}

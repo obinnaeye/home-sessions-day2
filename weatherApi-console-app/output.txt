@@ -1,0 +1,8 @@
+{
+  "Search-for": "awka",
+  "Reference-City": "Awka",
+  "Summary": "Clouds; few clouds",
+  "Temperature": "33 Celcius",
+  "Pressure": "1005 hPa",
+  "Humidity": "68 %"
+}
