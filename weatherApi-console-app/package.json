@@ -1,13 +1,13 @@
 {
-  "name": "weda",
+  "name": "weather",
   "version": "1.0.0",
   "description": "A simple console app that consumes a Public API using a HTTP client library: Andela Bootcamp",
-  "main": "weda.js",
+  "main": "weather.js",
   "scripts": {
-    "test": "./weda.js"
+    "test": "./weather.js"
   },
   "bin": {
-    "weda": ".bin/weda.js"
+    "weather": ".bin/weather.js"
   },
   "author": "Nnenanya O.K",
   "license": "ISC",
